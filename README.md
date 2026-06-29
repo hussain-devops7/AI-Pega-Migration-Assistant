@@ -4,4 +4,4 @@ User uploads inventory file → API Gateway → Lambda → Bedrock → S3/Dynamo
 
 ## Architecture Diagram
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/Architecture.pgsn.png)
