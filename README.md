@@ -115,7 +115,7 @@ sample-files/
 ## 🚀 Future Scope
 
 - AWS DMS Integration
-- Amazon EKS Deployment
+- Amazon EKS Deployment, AKS (Azure k8s service)
 - CI/CD Automation
 - Real-Time Migration Monitoring
 - Multi-Cloud Migration
