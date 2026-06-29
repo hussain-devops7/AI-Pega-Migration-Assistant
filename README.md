@@ -126,7 +126,7 @@ sample-files/
 
 ## 👨‍💻 Author
 
-**Mohd Hussain Jafri**
+**Mohammed Hussain Jafri**
 
 AWS | DevOps | Kubernetes | Terraform | AI
 
