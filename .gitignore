@@ -5,3 +5,10 @@ node_modules/
 dist/
 
 build/
+
+backend/venv/
+backend/uploads/
+__pycache__/
+*.pyc
+frontend/node_modules/
+.env
