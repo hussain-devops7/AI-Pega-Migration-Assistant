@@ -1,0 +1,5 @@
+Application,Version,Database,Users
+Pega CRM,8.7,Oracle,250
+Pega Sales,8.6,SQL Server,120
+Pega HR,8.5,PostgreSQL,80
+EOF

@@ -1,4 +1,4 @@
-Application Name,Pega Version,Current Hosting,Server Count,Database Type,Database Size GB,Integrations,Target AWS Preference
-ClaimsApp,8.6,On-Premises,4,Oracle,250,"MuleSoft,LDAP,SharePoint",EKS
-PolicyApp,8.7,VMware,3,PostgreSQL,120,"REST API,SFTP",ECS
-CustomerService,8.5,On-Premises,5,Oracle,400,"SOAP,LDAP,Email",EKS
+Application,Version,Database,Users
+Pega CRM,8.7,Oracle,250
+Pega Sales,8.6,SQL Server,120
+Pega HR,8.5,PostgreSQL,80
