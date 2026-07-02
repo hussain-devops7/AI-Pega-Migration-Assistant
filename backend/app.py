@@ -4,6 +4,7 @@ import shutil
 
 from parser import parse_inventory
 from ai_engine import analyze_inventory
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="AI Powered Pega Migration Assistant",
@@ -12,6 +13,14 @@ app = FastAPI(
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def home():
